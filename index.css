@@ -10,12 +10,15 @@
     background-color: #f8f8f8;
     padding: 10px;
     color: #aaa7a5;
+    width: 100%;
 }
 
 .primary-nav {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    /* width: 80%; */
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -62,7 +65,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    width: 80%;
+    /* width: 80%; */
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     justify-content: space-between;
     color:#746e68;
@@ -94,7 +99,9 @@
 
 .main-nav {
     display: flex;
-    width: 80%;
+    /* width: 80%; */
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     font-size: 13px;
     justify-content: space-between;
@@ -143,7 +150,10 @@
 }
 
 .card-container{
-    width: 80%;
+    
+    /* width: 80%; */
+    max-width: 1200px;
+    width: 100%;
     margin:0 auto;
     text-align: center;
     font-size: 13px;
